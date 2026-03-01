@@ -1,6 +1,6 @@
 # Hey, I'm Martijn 👋
 
-Platform Engineer & Cloud aficionado who still writes code. I spent years as a full stack developer before moving into infrastructure—which means I build platforms with the developer experience in mind.
+Platform Engineer & Cloud aficionado who still writes code. I spent years as a full stack developer before moving into infrastructure, which means I build platforms with the developer experience in mind.
 
 ## What I Do
 
@@ -37,17 +37,21 @@ My homelab runs on a [Turing Pi v2.5](https://github.com/mrcontainer-tech/homela
 
 | Repository                                                                    | What it is                                                               |
 | ----------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| [homelab-turing](https://github.com/mrcontainer-tech/homelab-turing)          | GitOps-managed K3s cluster: ArgoCD, MetalLB, Longhorn, Knative           |
+| [homelab-turing](https://github.com/mrcontainer-tech/homelab-turing)          | GitOps-managed Talos cluster: ArgoCD, MetalLB, Longhorn, Knative           |
 | [dotfiles-chezmoi](https://github.com/scholtenmartijn/dotfiles-chezmoi)       | Neovim + LSP, Zsh, Alacritty, chezmoi—bootstrap a machine in one command |
 | [cv-martijn-scholten](https://github.com/scholtenmartijn/cv-martijn-scholten) | LaTeX CV in Git, because version control makes sense for everything      |
 
 ## Stack
 
-**Platforms:** Kubernetes · OpenShift · K3s · EKS · AKS  
+**Platforms:** Kubernetes · OpenShift · Talos · EKS · AKS  
 **Cloud:** AWS · Azure  
 **IaC:** Terraform · Helm · ArgoCD · Kustomize  
 **Languages:** Python · Go · Bash  
 **Editor:** Neovim & Codium  
 **Terminal:** Alacritty · Zsh · Powerlevel10k
+
+## Blog
+
+I write about platform engineering, Kubernetes, and cloud infrastructure at [mrcontainer.nl](https://www.mrcontainer.nl).
 
 ---
