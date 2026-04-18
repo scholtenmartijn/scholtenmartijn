@@ -33,21 +33,6 @@
   A [Turing Pi v2.5](https://github.com/mrcontainer-tech/homelab-turing) with four Raspberry Pi CM4s and a Dell XPS with an NVIDIA GPU. Fully GitOps — ArgoCD watches the
    repo and reconciles everything from cert-manager to a media server. It's also where OpenConveyor gets dogfooded.
 
-  \```
-  ┌─────────────────────────────────────────────────────┐
-  │  Turing Pi v2.5                                     │
-  │  ┌─────┐ ┌─────┐ ┌─────┐ ┌─────┐                    │
-  │  │ CM4 │ │ CM4 │ │ CM4 │ │ CM4 │  ← Control Plane   │
-  │  │node1│ │node2│ │node3│ │node4│    + Worker        │
-  │  └─────┘ └─────┘ └─────┘ └─────┘                    │
-  └─────────────────────────────────────────────────────┘
-           ↓
-  ┌─────────────────┐
-  │   Dell XPS      │  ← x86_64 Worker
-  │   GTX 1650 Ti   │    GPU workloads
-  └─────────────────┘
-  \```
-
   ## Stack
 
   **Platforms:** Kubernetes · OpenShift · Talos · EKS · AKS
@@ -60,13 +45,3 @@
   ## Writing
 
   I write about platform engineering, Kubernetes, and cloud infrastructure at [mrcontainer.nl](https://www.mrcontainer.nl).
-
-  Key changes:
-  - Dropped the 👋 and "aficionado" — the title and lede are cleaner.
-  - New paragraph in What I Do prominently introduces OpenConveyor with a one-sentence pitch.
-  - Added OpenConveyor as the top row of the Open Source table.
-  - Tied the homelab back to OpenConveyor ("where it gets dogfooded") — reinforces the homelab-first thesis without a separate section.
-  - "Codium" → "VS Code" (Codium is the unbranded fork; if you actually use Codium/VSCodium, revert that).
-  - Renamed "Blog" → "Writing", slightly more natural for a professional profile.
-
-  Remove the backslash escapes on the code fences when you paste — they're only there because this response itself is a fenced markdown block.
