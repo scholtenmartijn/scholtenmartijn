@@ -1,6 +1,6 @@
   # Martijn Scholten
 
-  Platform engineer building Kubernetes platforms and the developer experience on top of them. I spent years as a full-stack developer before moving into infrastructure,
+  Staff level Platform engineer building Kubernetes platforms and the developer experience on top of them. I spent years as a full-stack developer before moving into infrastructure,
    which shapes how I build platforms — they should feel like something developers actually want to use.
 
   ## What I Do
@@ -39,6 +39,7 @@
   **Cloud:** AWS · Azure
   **IaC:** Terraform · Helm · ArgoCD · Kustomize
   **Languages:** Python · Go · Bash
+  **AI:** Claude · GitHub Co/.pilot · MCP
   **Editor:** Neovim & VS Code
   **Terminal:** Alacritty · Zsh · Powerlevel10k
 
