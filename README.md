@@ -14,11 +14,6 @@
   I'm also the creator of **[OpenConveyor](https://github.com/openconveyor/openconveyor)** — a Kubernetes-native orchestrator that runs AI coding agents as
   least-privilege, one-shot Jobs. Agent-agnostic, trigger-agnostic, homelab-first.
 
-  ## How I Work
-
-  Keyboard-centric, terminal-first. Neovim, Alacritty, Zsh with Powerlevel10k. Everything is managed with [chezmoi](https://github.com/scholtenmartijn/dotfiles-chezmoi),
-   so a new machine is bootstrapped in a single command.
-
   ## Open Source
 
   | Repository | What it is |
@@ -32,16 +27,6 @@
 
   A [Turing Pi v2.5](https://github.com/mrcontainer-tech/homelab-turing) with four Raspberry Pi CM4s and a Dell XPS with an NVIDIA GPU. Fully GitOps — ArgoCD watches the
    repo and reconciles everything from cert-manager to a media server. It's also where OpenConveyor gets dogfooded.
-
-  ## Stack
-
-  **Platforms:** Kubernetes · OpenShift · Talos · EKS · AKS
-  **Cloud:** AWS · Azure
-  **IaC:** Terraform · Helm · ArgoCD · Kustomize
-  **Languages:** Python · Go · Bash
-  **AI:** Claude · GitHub Co/.pilot · MCP
-  **Editor:** Neovim & VS Code
-  **Terminal:** Alacritty · Zsh · Powerlevel10k
 
   ## Writing
 
